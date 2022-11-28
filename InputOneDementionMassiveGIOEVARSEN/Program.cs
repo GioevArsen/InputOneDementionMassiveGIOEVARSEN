@@ -25,6 +25,8 @@ namespace InputOneDementionMassiveGIOEVARSEN
             {
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine("Внимание, проверка на доступ из дома!");
         }
     }
 }
