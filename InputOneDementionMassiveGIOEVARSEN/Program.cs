@@ -13,8 +13,7 @@ namespace InputOneDementionMassiveGIOEVARSEN
             // ввод элементов массива в строку
             int n = Convert.ToInt32(Console.ReadLine());
             int[] mas = new int[n];
-            string temp = Console.ReadLine();
-            string[] tempmas = temp.Split();
+            string[] tempmas = Console.ReadLine().Split();
 
             for(int i = 0; i < n; i++)
             {
