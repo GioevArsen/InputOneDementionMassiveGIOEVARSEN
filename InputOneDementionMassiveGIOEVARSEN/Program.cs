@@ -11,6 +11,7 @@ namespace InputOneDementionMassiveGIOEVARSEN
         static void Main(string[] args)
         {
             // ввод элементов массива в строку
+            Console.WriteLine("введите количество измененией массива");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] mas = new int[n];
             string[] tempmas = Console.ReadLine().Split();
